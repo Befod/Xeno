@@ -1,7 +1,6 @@
 // Configure PSScriptAnalyzer settings
 {
     "[powershell]": {
-        // Disable formating until: https://github.com/PowerShell/vscode-powershell/issues/1019 is fixed
         "editor.formatOnSave": false
     },
     "powershell.scriptAnalysis.settingsPath": "PSScriptAnalyzerSettings.psd1",
