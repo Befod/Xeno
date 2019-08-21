@@ -1,5 +1,5 @@
 # Xeno
-A scoop bucket
+A [Scoop](http://scoop.sh) bucket
 
 - Add the bucket
 
