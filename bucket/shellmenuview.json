@@ -1,7 +1,7 @@
 {
-    "description": "It displays the list of static menu items that appeared in the context menu when you right-click a file/folder on Windows Explorer, and allows you to easily disable unwanted menu items. ",
-    "version": "1.41",
     "homepage": "https://www.nirsoft.net",
+    "description": "Displays the list of static menu items that appeared in the context menu when you right-click a file/folder on Windows Explorer, and allows you to easily disable unwanted menu items",
+    "version": "1.41",
     "license": "Freeware",
     "architecture": {
         "64bit": {
@@ -32,5 +32,6 @@
         "    }",
         "}",
         "'shmnview_lng.ini', 'shmnview.cfg' | % {CreateFile $_}"
-    ]
+    ],
+    "notes": "Please download the language file from the homepage"
 }

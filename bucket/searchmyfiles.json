@@ -1,7 +1,7 @@
 {
-    "description": "Alternative to 'Search For Files And Folders' module of Windows and also duplicate files search. ",
-    "version": "3.01",
     "homepage": "https://www.nirsoft.net",
+    "description": "Alternative to Search For Files And Folders module of Windows and also duplicate files search",
+    "version": "3.01",
     "license": "Freeware",
     "architecture": {
         "64bit": {
@@ -32,5 +32,6 @@
         "    }",
         "}",
         "'SearchMyFiles_lng.ini', 'SearchMyFiles.cfg' | % {CreateFile $_}"
-    ]
+    ],
+    "notes": "Please download the language file from the homepage"
 }

@@ -1,7 +1,7 @@
 {
-    "description": "Displays the details of shell extensions installed on your computer, and allows you to easily disable and enable each shell extension. ",
-    "version": "2.01",
     "homepage": "https://www.nirsoft.net",
+    "description": "Displays the details of shell extensions installed on your computer, and allows you to easily disable and enable each shell extension",
+    "version": "2.01",
     "license": "Freeware",
     "architecture": {
         "64bit": {
@@ -32,5 +32,6 @@
         "    }",
         "}",
         "'shexview_lng.ini', 'shexview.cfg' | % {CreateFile $_}"
-    ]
+    ],
+    "notes": "Please download the language file from the homepage"
 }
