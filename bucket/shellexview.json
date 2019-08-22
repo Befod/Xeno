@@ -32,6 +32,5 @@
         "    }",
         "}",
         "'shexview_lng.ini', 'shexview.cfg' | % {CreateFile $_}"
-    ],
-    "notes": "Please download the language file from the homepage"
+    ]
 }
