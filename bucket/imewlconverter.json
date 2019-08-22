@@ -1,0 +1,24 @@
+{
+    "homepage": "https://github.com/studyzy/imewlconverter",
+    "description": "一款开源免费的输入法词库转换程序",
+    "version": "2.6",
+    "license": "GPL-3.0",
+    "url": "https://github.com/studyzy/imewlconverter/releases/download/V2.6/Release_V2.6_Windows.zip",
+    "hash": "2202d6f0333cd738c208132d4e3b7f3d6be072f99f06c50f55cefc91ed119757",
+    "bin": [
+        [
+            "深蓝词库转换.exe",
+            "imewlconverter"
+        ]
+    ],
+    "shortcuts": [
+        [
+            "深蓝词库转换.exe",
+            "深蓝词库转换"
+        ]
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/studyzy/imewlconverter/releases/download/$version/Release_$version_Windows.zip"
+    }
+}
