@@ -6,8 +6,8 @@
         "identifier": "Unknown",
         "url": "https://docs.microsoft.com/en-us/sysinternals/license-terms"
     },
-    "url": "https://docs.microsoft.com/en-us/sysinternals/downloads/autoruns",
-    "hash": "04548282a2328a1200e3964cfbff45c86a9542e5d000b85039738041ecf67524",
+    "url": "https://download.sysinternals.com/files/Autoruns.zip",
+    "hash": "fe16235b91a0d9aec0ccce88b0024070d82576a574227a3dffeb3a53498d2331",
     "architecture": {
         "64bit": {
             "bin":[
