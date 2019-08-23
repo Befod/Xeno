@@ -1,0 +1,36 @@
+{
+    "homepage": "https://docs.microsoft.com/en-us/sysinternals",
+    "description": "See what programs are configured to startup automatically when your system boots and you login.",
+    "version": "13.96",
+    "license": {
+        "identifier": "Unknown",
+        "url": "https://docs.microsoft.com/en-us/sysinternals/license-terms"
+    },
+    "url": "https://docs.microsoft.com/en-us/sysinternals/downloads/autoruns",
+    "hash": "fe16235b91a0d9aec0ccce88b0024070d82576a574227a3dffeb3a53498d2331",
+    "architecture": {
+        "64bit": {
+            "bin":[
+                [
+                    "autorunsc64.exe",
+                    "autorunsc"
+                ]
+            ],
+            "shortcuts": [
+                [
+                    "Autoruns64.exe",
+                    "Autoruns"
+                ]
+            ]
+        },
+        "32bit": {
+            "bin":"autorunsc.exe",
+            "shortcuts": [
+                [
+                    "Autoruns.exe",
+                    "Autoruns"
+                ]
+            ]
+        }
+    }
+}
