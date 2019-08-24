@@ -32,5 +32,20 @@
         "    }",
         "}",
         "'shexview_lng.ini', 'shexview.cfg' | % {CreateFile $_}"
-    ]
+    ],
+    "notes": "Please download the languages file from nirsoft.net",
+    "checkver": {
+        "url": "https://www.nirsoft.net/pad/shexview.xml",
+        "xpath": "/XML_DIZ_INFO/Program_Info/Program_Version"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://www.nirsoft.net/utils/shexview-x64.zip"
+            },
+            "32bit": {
+                "url": "https://www.nirsoft.net/utils/shexview.zip"
+            }
+        }
+    }
 }
