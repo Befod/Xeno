@@ -21,6 +21,7 @@
         ]
     ],
     "persist": "xnview.ini",
+    "extract_dir": "XnViewMP",
     "checkver": "Download <strong>XnView MP ([\\d.]+)",
     "autoupdate": {
         "architecture": {
