@@ -21,6 +21,15 @@
         ]
     ],
     "persist": "xnview.ini",
+    "pre_install": [
+        "function CreateFile ($name, $value = $null) {",
+        "    if (!(Test-Path \"$persist_dir\\$name\")) {",
+        "        Write-Host -ForegroundColor Yellow -BackgroundColor Black \"Create $name\"",
+        "        New-Item -Force -Path \"$persist_dir\" -Name $name -Value $value",
+        "    }",
+        "}",
+        "CreateFile 'xnview.ini'"
+    ],
     "extract_dir": "XnViewMP",
     "checkver": "Download <strong>XnView MP ([\\d.]+)",
     "autoupdate": {
