@@ -10,7 +10,7 @@
     "hash": "fe16235b91a0d9aec0ccce88b0024070d82576a574227a3dffeb3a53498d2331",
     "architecture": {
         "64bit": {
-            "bin":[
+            "bin": [
                 [
                     "autorunsc64.exe",
                     "autorunsc"
@@ -24,7 +24,7 @@
             ]
         },
         "32bit": {
-            "bin":"autorunsc.exe",
+            "bin": "autorunsc.exe",
             "shortcuts": [
                 [
                     "Autoruns.exe",
