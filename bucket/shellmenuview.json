@@ -25,10 +25,9 @@
         "shmnview.cfg"
     ],
     "pre_install": [
-        "function CreateFile ($name, $value = $null) {",
+        "function CreateFile ($name) {",
         "    if (!(Test-Path \"$persist_dir\\$name\")) {",
-        "        Write-Host -ForegroundColor Yellow -BackgroundColor Black \"Create $name\"",
-        "        New-Item -Force -Path \"$persist_dir\" -Name $name -Value $value",
+        "        New-Item -Force -Path \"$persist_dir\" -Name $name -ItemType \"file\"",
         "    }",
         "}",
         "'shmnview_lng.ini', 'shmnview.cfg' | % {CreateFile $_}"
