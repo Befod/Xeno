@@ -25,7 +25,7 @@
         "function CreateFile ($name) {",
         "    if (!(Test-Path \"$persist_dir\\$name\")) {",
         "        Write-Host -ForegroundColor Yellow -BackgroundColor Black \"Create $name\"",
-        "        New-Item -Force -Path \"$persist_dir\" -Name $name -ItemType \"file\"",
+        "        New-Item -Force -Path \"$persist_dir\" -Name $name -ItemType \"file\" | Out-Null",
         "    }",
         "}",
         "CreateFile 'xnview.ini'"
