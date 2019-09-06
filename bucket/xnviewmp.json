@@ -14,13 +14,14 @@
         }
     },
     "extract_dir": "XnViewMP",
-    "bin": "XnViewMP.exe",
+    "bin": "xnviewmp.exe",
     "shortcuts": [
         [
-            "XnViewMP.exe",
+            "xnviewmp.exe",
             "XnViewMP"
         ]
     ],
+    "persist": "plugins",
     "checkver": "Download <strong>XnView MP ([\\d.]+)",
     "autoupdate": {
         "architecture": {
