@@ -28,11 +28,11 @@
     "checkver": "Download <strong>XnView MP ([\\d.]+)",
     "autoupdate": {
         "architecture": {
-            "32bit": {
-                "url": "https://download.xnview.com/XnViewMP-win.zip"
-            },
             "64bit": {
                 "url": "https://download.xnview.com/XnViewMP-win-x64.zip"
+            },
+            "32bit": {
+                "url": "https://download.xnview.com/XnViewMP-win.zip"
             }
         }
     }
