@@ -14,14 +14,17 @@
         }
     },
     "extract_dir": "XnViewMP",
-    "bin": "xnviewmp.exe",
+    "bin": "XnViewMP.exe",
     "shortcuts": [
         [
-            "xnviewmp.exe",
+            "XnViewMP.exe",
             "XnViewMP"
         ]
     ],
-    "persist": "plugins",
+    "persist": "xnview.ini",
+    "pre_install": [
+        "if (!(Test-Path \"$persist_dir\\xnview.ini\")) { New-Item \"$dir\\xnview.ini\" -ItemType File | Out-Null }"
+    ],
     "checkver": "Download <strong>XnView MP ([\\d.]+)",
     "autoupdate": {
         "architecture": {
