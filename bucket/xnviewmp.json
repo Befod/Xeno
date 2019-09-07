@@ -23,7 +23,7 @@
     ],
     "persist": "xnview.ini",
     "pre_install": [
-        "if (!(Test-Path \"$persist_dir\\xnview.ini\")) { New-Item -Force -Path \"$persist_dir\" -Name \"xnview.ini\" -ItemType File | Out-Null }"
+        "if (!(Test-Path \"$persist_dir\\xnview.ini\")) { New-Item \"$dir\\xnview.ini\" -ItemType File | Out-Null }"
     ],
     "checkver": "Download <strong>XnView MP ([\\d.]+)",
     "autoupdate": {
