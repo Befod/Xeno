@@ -14,10 +14,10 @@
         }
     },
     "extract_dir": "XnViewMP",
-    "bin": "XnViewMP.exe",
+    "bin": "xnviewmp.exe",
     "shortcuts": [
         [
-            "XnViewMP.exe",
+            "xnviewmp.exe",
             "XnViewMP"
         ]
     ],
