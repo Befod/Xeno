@@ -21,7 +21,6 @@
             "XnViewMP"
         ]
     ],
-    "persist": "xnview.ini",
     "pre_install": [
         "if (!(Test-Path \"$env:APPDATA\\XnViewMP\\xnview.ini\")) {",
         "    New-Item -Force -Path \"$env:APPDATA\\XnViewMP\" -Name \"xnview.ini\" -ItemType file | Out-Null}"
