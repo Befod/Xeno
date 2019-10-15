@@ -1,15 +1,15 @@
 {
     "homepage": "https://www.eudic.net/",
     "description": "权威的英语词典软件 英语学习者必备的工具",
-    "version": "12.2.3",
+    "version": "12.3",
     "license": "freeware",
     "url": "http://static.frdic.com/pkg/eudic_win.zip",
     "hash": "f33508d41402cc1ab0de52ee6165f459887ccf7c9cc8435cd7315a7f0fcf49ec",
     "installer": {
         "script": [
-            "Expand-7ZipArchive \"$dir\\eudic_win.exe\" \"$dir\\\"",
-            "Expand-7ZipArchive \"$dir\\app.7z\" \"$dir\"",
-            "Remove-Item \"$dir\\app.7z\",\"$dir\\uninst.exe.nsis\",\"$dir\\`$PLUGINSDIR\"  -Force -Recurse"
+            "Expand-7ZipArchive \"$dir\\eudic_win.exe\" \"$dir\\\" -Removal",
+            "Expand-7ZipArchive \"$dir\\app.7z\" \"$dir\" -Removal",
+            "Remove-Item \"$dir\\uninst.exe.nsis\",\"$dir\\`$PLUGINSDIR\"  -Force -Recurse"
         ]
     },
     "bin": "eudic.exe",
