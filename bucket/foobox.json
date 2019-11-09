@@ -19,7 +19,8 @@
     "persist": [
         "configuration",
         "index-data",
-        "library"
+        "library",
+        "playlists-v1.4"
     ],
     "checkver": "github",
     "autoupdate": {
