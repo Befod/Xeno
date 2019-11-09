@@ -20,6 +20,8 @@
         "configuration",
         "index-data",
         "library",
+        "Lyrics",
+        "MusicArt",
         "playlists-v1.4"
     ],
     "checkver": "github",
