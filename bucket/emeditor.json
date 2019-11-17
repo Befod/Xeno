@@ -1,0 +1,43 @@
+{
+    "homepage": "https://www.emeditor.com/",
+    "description": "A fast, lightweight, yet extensible, easy-to-use text editor for Windows.",
+    "version": "19.3.2",
+    "architecture": {
+        "64bit": {
+            "url": "https://support.emeditor.com/en/downloads/latest/portable/64",
+            "hash": "46f0fb92b12fab0cec3c37188a825b56255566f4f437cbc588601baf317e6a72"
+        },
+        "32bit": {
+            "url": "https://support.emeditor.com/en/downloads/latest/portable/32",
+            "hash": "f0f7797901012eb9d68fa2efd5f0f612673f053058e534d18735ab8da46aaf92"
+        }
+    },
+    "bin": "EmEditor.exe",
+    "shortcuts": [
+        [
+            "EmEditor.exe",
+            "EmEditor"
+        ]
+    ],
+    "pre_install": [
+        "eeCommon.ini",
+        "eeConfig.ini",
+        "eeLM.ini",
+        "eePlugins.ini",
+        "eeUseIni.ini"
+    ],
+    "checkver": {
+        "url": "https://www.emeditor.com/download/",
+        "regex": "Download latest version: v([\\d.]+)"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://support.emeditor.com/en/downloads/latest/portable/64"
+            },
+            "32bit": {
+                "url": "https://support.emeditor.com/en/downloads/latest/portable/32"
+            }
+        }
+    }
+}
