@@ -4,11 +4,11 @@
     "version": "19.3.2",
     "architecture": {
         "64bit": {
-            "url": "https://support.emeditor.com/en/downloads/latest/portable/64",
+            "url": "https://emeditor.blob.core.windows.net/emed64_19.3.2_portable.zip",
             "hash": "46f0fb92b12fab0cec3c37188a825b56255566f4f437cbc588601baf317e6a72"
         },
         "32bit": {
-            "url": "https://support.emeditor.com/en/downloads/latest/portable/32",
+            "url": "https://emeditor.blob.core.windows.net/emed32_19.3.2_portable.zip",
             "hash": "f0f7797901012eb9d68fa2efd5f0f612673f053058e534d18735ab8da46aaf92"
         }
     },
@@ -19,12 +19,20 @@
             "EmEditor"
         ]
     ],
-    "pre_install": [
+    "persist": [
         "eeCommon.ini",
         "eeConfig.ini",
         "eeLM.ini",
         "eePlugins.ini",
         "eeUseIni.ini"
+    ],
+    "pre_install": [
+        "function CreateFile ($name) {",
+        "    if (!(Test-Path \"$persist_dir\\$name\")) {",
+        "        New-Item -Force -Path \"$persist_dir\" -Name $name -ItemType \"file\"",
+        "    }",
+        "}",
+        "'eeCommon.ini', 'eeConfig.ini', 'eeLM.ini','eePlugins.ini' | % {CreateFile $_}"
     ],
     "checkver": {
         "url": "https://www.emeditor.com/download/",
@@ -33,10 +41,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://support.emeditor.com/en/downloads/latest/portable/64"
+                "url": "https://emeditor.blob.core.windows.net/emed64_$version_portable.zip"
             },
             "32bit": {
-                "url": "https://support.emeditor.com/en/downloads/latest/portable/32"
+                "url": "https://emeditor.blob.core.windows.net/emed32_$version_portable.zip"
             }
         }
     }
