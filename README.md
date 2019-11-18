@@ -15,3 +15,4 @@ A [Scoop](http://scoop.sh) bucket
 - Remove the bucket
 
     `scoop bucket rm xeno`
+
