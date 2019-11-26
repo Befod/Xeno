@@ -3,7 +3,7 @@
     "description": "See what programs are configured to startup automatically when your system boots and you login.",
     "version": "13.96",
     "license": {
-        "identifier": "Freeware",
+        "identifier": "Microsoft SysInternals EULA",
         "url": "https://docs.microsoft.com/en-us/sysinternals/license-terms"
     },
     "url": "https://download.sysinternals.com/files/Autoruns.zip",
