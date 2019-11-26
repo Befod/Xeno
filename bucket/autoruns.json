@@ -1,5 +1,5 @@
 {
-    "homepage": "https://docs.microsoft.com/en-us/sysinternals",
+    "homepage": "https://docs.microsoft.com/en-us/sysinternals/downloads/autoruns.",
     "description": "See what programs are configured to startup automatically when your system boots and you login.",
     "version": "13.96",
     "license": {
