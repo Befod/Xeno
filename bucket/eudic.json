@@ -1,10 +1,9 @@
 {
     "homepage": "https://www.eudic.net/",
-    "description": "权威的英语词典软件 英语学习者必备的工具",
     "version": "12.3",
     "license": "freeware",
     "url": "http://static.frdic.com/pkg/eudic_win.zip",
-    "hash": "f33508d41402cc1ab0de52ee6165f459887ccf7c9cc8435cd7315a7f0fcf49ec",
+    "hash": "4ccb765f334f24a9f3b149425a5a28d9c1d52dc1d35bf8c55021acc047b34fda",
     "installer": {
         "script": [
             "Expand-7ZipArchive \"$dir\\eudic_win.exe\" \"$dir\\\" -Removal",
