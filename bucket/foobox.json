@@ -21,8 +21,7 @@
         "index-data",
         "library",
         "Lyrics",
-        "MusicArt",
-        "playlists-v1.5"
+        "MusicArt"
     ],
     "checkver": "github",
     "autoupdate": {
