@@ -26,6 +26,6 @@
     ],
     "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/dream7180/foobox-cn/releases/download/foobox/foobox-$version.zip"
+        "url": "https://github.com/dream7180/foobox-cn/releases/download/$version/Foobox-$version.zip"
     }
 }
