@@ -24,8 +24,7 @@
     ],
     "pre_install": [
         "if (!(Test-Path \"$persist_dir\\Settings\")) {",
-        "    New-Item \"$persist_dir\\Settings\" -Force | Out-Null",
-        "    Copy-Item \"$dir\\Settings\" \"$persist_dir\\Settings\"",
+        "    New-Item \"$persist_dir\\Settings\" -Force -ItemType \"file\"",
         "}"
     ],
     "checkver": "github"
