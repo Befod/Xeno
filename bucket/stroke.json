@@ -1,0 +1,31 @@
+{
+    "homepage": "https://github.com/poerin/Stroke",
+    "description": "A mouse gesture program.",
+    "version": "1.0.0.0",
+    "license": "GPL_3.0",
+    "url": "https://github.com/poerin/Stroke/releases/download/2020-10-15/Stroke.zip",
+    "hash": "b28e9498a0b166b0291bf4c92ab28380b43cc1c100d7db354faa880c37c1a389",
+    "bin": [
+        "Stroke.exe",
+        "Stroke.Configure.exe"
+    ],
+    "shortcuts": [
+        [
+            "Stroke.exe",
+            "Stroke"
+        ],
+        [
+            "Stroke.Configure.exe",
+            "Stroke.Configure"
+        ]
+    ],
+    "persist": [
+        "Settings"
+    ],
+    "pre_install": [
+        "if (!(Test-Path \"$persist_dir\\Settings\")) {",
+        "    New-Item \"$persist_dir\\Settings\" -Force | Out-Null",
+        "}"
+    ],
+    "checkver": "github"
+}
