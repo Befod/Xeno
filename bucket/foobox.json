@@ -5,10 +5,12 @@
     "license": "Freeware",
     "url": "https://github.com/dream7180/foobox-cn/releases/download/6.1.6.2/foobox_6.1.6.2.zip",
     "hash": "53463a181a276baaed44cca06977282e3d594eef2dd215001df7d328a205ac01",
-    "pre_install": [
-        "Expand-7ZipArchive \"$dir\\foobox-$version.exe\" \"$dir\\\" -Removal",
-        "Remove-Item \"$dir\\`$PLUGINSDIR\"  -Force -Recurse"
-    ],
+    "installer": {
+        "script": [
+            "Expand-7ZipArchive \"$dir\\foobox-$version.exe\" \"$dir\\\" -Removal",
+            "Remove-Item \"$dir\\`$PLUGINSDIR\"  -Force -Recurse"
+        ]
+    },
     "bin": "foobar2000.exe",
     "shortcuts": [
         [
