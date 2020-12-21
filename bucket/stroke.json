@@ -4,7 +4,7 @@
     "version": "2020-12-20",
     "license": "GPL_3.0",
     "url": "https://github.com/poerin/Stroke/releases/download/2020-12-20/Stroke.zip",
-    "hash": "5c9b0ae83b9d3c76b0a980cdc63d3eaa520ddfb295c66df5b3114c3659c6bd61",
+    "hash": "61cae7a2c333099994850c08a6de78d9f2807cbf9263c1dde6dcfcaa0af667e6",
     "bin": [
         "Stroke.exe",
         "Stroke.Configure.exe"
