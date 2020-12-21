@@ -4,7 +4,7 @@
     "version": "6.1.6.2",
     "license": "Freeware",
     "url": "https://github.com/dream7180/foobox-cn/releases/download/6.1.6.2/foobox_6.1.6.2.zip",
-    "hash": "53463a181a276baaed44cca06977282e3d594eef2dd215001df7d328a205ac01",
+    "hash": "61cae7a2c333099994850c08a6de78d9f2807cbf9263c1dde6dcfcaa0af667e6",
     "pre_install": [
         "Expand-7ZipArchive \"$dir\\foobox-$version.exe\" \"$dir\\\" -Removal",
         "Remove-Item \"$dir\\`$PLUGINSDIR\"  -Force -Recurse"
