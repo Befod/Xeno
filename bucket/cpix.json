@@ -12,6 +12,9 @@
             "CPix"
         ]
     ],
+    "pre_install": [
+        "if (-not (Test-Path \"$persist_dir\\CPix.ini\")) { New-Item \"$dir\\CPix.ini\" | Out-Null }"
+    ],
     "persist": "CPix.ini",
     "checkver": {
         "re": "Version ([\\d.]+)"
