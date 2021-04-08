@@ -12,6 +12,7 @@
             "CPix"
         ]
     ],
+    "persist": "CPix.ini",
     "checkver": {
         "re": "Version ([\\d.]+)"
     },
