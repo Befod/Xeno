@@ -1,0 +1,20 @@
+{
+    "homepage": "https://www.bypass.cn",
+    "description": "分流抢票",
+    "version": "1.14.56",
+    "url": "https://www.bypass.cn/api/download?name=Bypass.zip",
+    "hash": "3a156f157d3b162125c4d9940416770eed8f3299ada1935e78dcf909e0afdbb0",
+    "bin": "Bypass.exe",
+    "shortcuts": [
+        [
+            "Bypas.exe",
+            "Bypas"
+        ]
+    ],
+    "checkver": {
+        "re": "Version: ([\\d.]+)"
+    },
+    "autoupdate": {
+        "url": "https://www.bypass.cn/api/download?name=Bypass.zip"
+    }
+}
