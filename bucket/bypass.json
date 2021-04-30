@@ -7,8 +7,8 @@
     "bin": "Bypass.exe",
     "shortcuts": [
         [
-            "Bypas.exe",
-            "Bypas"
+            "Bypass.exe",
+            "Bypass"
         ]
     ],
     "checkver": {
