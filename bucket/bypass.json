@@ -12,7 +12,7 @@
         ]
     ],
     "checkver": {
-        "re": "Version: ([\\d.]+)"
+        "re": "Version&#xFF1A;([\\d.]+)"
     },
     "autoupdate": {
         "url": "https://www.bypass.cn/api/download?name=Bypass.zip"
