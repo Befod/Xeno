@@ -7,13 +7,13 @@
     "hash": "4a1a64d33a11d3facd705f81b9cdb7955c4e99ee65e0f3c5ed4eb94593f030d7",
     "bin": [
         [
-            "ContextMenuManager.NET.4.exe",
+            "ContextMenuManager.NET.4.0exe",
             "ContextMenuManager"
         ]
     ],
     "shortcuts": [
         [
-            "ContextMenuManager.NET.4.exe",
+            "ContextMenuManager.NET.4.0.exe",
             "ContextMenuManager"
         ]
     ],
