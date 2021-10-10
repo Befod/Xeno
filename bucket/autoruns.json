@@ -12,8 +12,8 @@
         "64bit": {
             "bin": [
                 [
-                    "autorunsc64.exe",
-                    "autorunsc"
+                    "Autoruns64.exe",
+                    "autoruns"
                 ]
             ],
             "shortcuts": [
@@ -24,7 +24,7 @@
             ]
         },
         "32bit": {
-            "bin": "autorunsc.exe",
+            "bin": "Autoruns.exe",
             "shortcuts": [
                 [
                     "Autoruns.exe",
