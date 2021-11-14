@@ -11,6 +11,7 @@
             "Music Downloader UI"
         ]
     ],
+    "pre_install": "if (-not (Test-Path \"$persist_dir\\Music-Downloader-UI.exe.config\")) { New-Item \"$dir\\Music-Downloader-UI.exe.config\" | Out-Null }",
     "persist": "Music-Downloader-UI.exe.config",
     "checkver": "github",
     "autoupdate": {
