@@ -1,0 +1,19 @@
+{
+    "homepage": "https://github.com/nitezs/Music-Downloader-UI",
+    "description": "WPF+C# 编写的音乐下载器",
+    "version": "1.5.2",
+    "license": "GPL-3.0",
+    "url": "https://github.com/nitezs/Music-Downloader-UI/releases/download/1.5.2/Music-Downloader-UI.exe",
+    "hash": "e492e1ad425a3fee2c4259912f377dc4ac70b7ef35ff141d31eb8507f6db5ee4",
+    "shortcuts": [
+        [
+            "Music-Downloader-UI.exe",
+            "Music Downloader UI"
+        ]
+    ],
+    "persist": "Music-Downloader-UI.exe.config",
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/nitezs/Music-Downloader-UI/releases/download/$version/Music-Downloader-UI.exe"
+    }
+}

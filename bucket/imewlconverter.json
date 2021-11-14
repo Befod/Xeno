@@ -5,12 +5,6 @@
     "license": "GPL-3.0",
     "url": "https://github.com/studyzy/imewlconverter/releases/download/v2.9.0/imewlconverter_Windows.zip",
     "hash": "96e4c2ffdec86cb61983435378fcf102e01f6a27e24b6f365f623f5fdf9a890a",
-    "bin": [
-        [
-            "深蓝词库转换.exe",
-            "imewlconverter"
-        ]
-    ],
     "shortcuts": [
         [
             "深蓝词库转换.exe",
