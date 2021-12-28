@@ -12,6 +12,7 @@
             "clipboard-online"
         ]
     ],
+    "pre_install": "if (-not (Test-Path \"$persist_dir\\config.json\")) { New-Item \"$dir\\config.json\" | Out-Null }",
     "persist": [
         "config.json"
     ],
