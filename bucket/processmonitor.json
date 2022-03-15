@@ -1,13 +1,13 @@
 {
     "homepage": "https://docs.microsoft.com/en-us/sysinternals/downloads/procmon",
     "description": "Task manager and system monitor for Microsoft Windows created by SysInternals.",
-    "version": "3.87",
+    "version": "3.89",
     "license": {
         "identifier": "Microsoft SysInternals EULA",
         "url": "https://docs.microsoft.com/en-us/sysinternals/license-terms"
     },
     "url": "https://download.sysinternals.com/files/ProcessMonitor.zip",
-    "hash": "997851d89cee5a6b9263a0983746316bfe6e5b40e2edc403c80fbb3382c9f1c0",
+    "hash": "99b5bc8dc724b1629354f9ff235818be3428ddcb36438eb9825f3ae270f708ae",
     "architecture": {
         "64bit": {
             "bin": [
