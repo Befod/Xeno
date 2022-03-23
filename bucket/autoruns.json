@@ -1,7 +1,7 @@
 {
     "homepage": "https://docs.microsoft.com/en-us/sysinternals/downloads/autoruns.",
     "description": "See what programs are configured to startup automatically when your system boots and you login.",
-    "version": "14.07",
+    "version": "14.09",
     "license": {
         "identifier": "Microsoft SysInternals EULA",
         "url": "https://docs.microsoft.com/en-us/sysinternals/license-terms"
@@ -12,8 +12,8 @@
         "64bit": {
             "bin": [
                 [
-                    "Autoruns64.exe",
-                    "autoruns"
+                    "Autorunsc64.exe",
+                    "autorunsc"
                 ]
             ],
             "shortcuts": [
@@ -24,7 +24,7 @@
             ]
         },
         "32bit": {
-            "bin": "Autoruns.exe",
+            "bin": "Autorunsc.exe",
             "shortcuts": [
                 [
                     "Autoruns.exe",

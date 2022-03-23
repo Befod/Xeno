@@ -5,7 +5,6 @@
     "license": "AS IS",
     "url": "http://www.filefriend.net/CPix/cn/CPix.zip",
     "hash": "f8ebcc5f128745c44ef36b2234e76304b1b9e5769ee1a949ee4b2cd4c607adc6",
-    "bin": "CPix.exe",
     "shortcuts": [
         [
             "CPix.exe",

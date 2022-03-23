@@ -1,0 +1,22 @@
+{
+    "homepage": "https://www.fluentsearch.net/",
+    "description": "An application to search for running apps, browser tabs, in-app content, files and more.",
+    "version": "0.9.90.9999",
+    "license": "Freeware",
+    "url": "https://stfluentsearch.blob.core.windows.net/fluent-search/fluent-search-portable.zip",
+    "hash": "32daf98f075b118a5d47a38d211fab84112b2dcc3481b9d9d737c7195e19d1e4",
+    "shortcuts": [
+        [
+            "FluentSearch.exe",
+            "FluentSearch"
+        ]
+    ],
+    "persist": "Blast",
+    "checkver": {
+        "url":"https://install.appcenter.ms/users/adirh3-gmail.com/apps/fluent-search/distribution_groups/portable",
+        "regex": "Version ([\\d.]+)"
+    },
+    "autoupdate": {
+        "url": "https://stfluentsearch.blob.core.windows.net/fluent-search/fluent-search-portable.zip"
+    }
+}
