@@ -2,6 +2,7 @@
     "homepage": "https://www.emeditor.com/",
     "description": "A fast, lightweight, yet extensible, easy-to-use text editor for Windows.",
     "version": "21.6.0",
+    "license": "Shareware",
     "architecture": {
         "64bit": {
             "url": "https://emeditor.blob.core.windows.net/emed64_21.6.0_portable.zip",
