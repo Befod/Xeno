@@ -7,10 +7,10 @@
     "hash": "d41bb32d81a708ccd1606feabb2f992679bb1940842bfe700abf4df9928e8581",
     "depends": "sudo",
     "installer": {
-        "script": "sudo $dir\\install.bat"
+        "script": "sudo \"$dir\\install.bat\""
     },
     "uninstaller": {
-        "script": "sudo $dir\\uninstall.bat"
+        "script": "sudo \"$dir\\uninstall.bat\""
     },
     "notes":"First in https://add0n.com/open-in.html installing the \"open in\" series extensions",
     "checkver": "github",
