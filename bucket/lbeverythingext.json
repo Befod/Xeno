@@ -12,6 +12,7 @@
         "    cmd /c mklink /j \"$(appdir everything)\\current\\bin\" \"$dir\\bin\" | out-null",
         "}"
     ],
+    "persist": "bin\\IbEverythingExt.yaml",
     "checkver": "github",
     "autoupdate": {
         "url": "https://github.com/Chaoses-Ib/IbEverythingExt/releases/download/v$version/IbEverythingExt.v$version.zip"
