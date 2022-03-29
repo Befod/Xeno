@@ -7,8 +7,8 @@
     "hash": "76F6305EEB3C3BDA49DD7242468B2C5E5189F187E7F86B25CD2D40A310623B12",
     "depends": "extras/everything",
     "post_install": [
-        "if (Test-Path \"$scoopdir\\everything\") {",
-        "   cmd /c mklink /j \"$scoopdir\\everything\\current\\bin\" \"$dir\\bin\"",
+        "if (Test-Path \"$(appdir everything)\") {",
+        "    cmd /c mklink /j \"$dir\\bin\" \"$(appdir everything)\\current\\bin\" | out-null",
         "}"
     ],
     "checkver": "github",
