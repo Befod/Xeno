@@ -9,7 +9,7 @@
     "extract_dir": "IbEverythingExt",
     "post_install": [
         "if (Test-Path \"$(appdir everything)\") {",
-        "    cmd /c mklink /j \"$dir\\bin\" \"$(appdir everything)\\current\\bin\" | out-null",
+        "    cmd /c mklink /j \"$(appdir everything)\\current\\bin\" \"$dir\\bin\" | out-null",
         "}"
     ],
     "checkver": "github",
