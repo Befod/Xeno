@@ -12,7 +12,8 @@
     "uninstaller": {
         "script": "sudo \"$dir\\uninstall.bat\""
     },
-    "notes":"First in https://add0n.com/open-in.html installing the \"open in\" series extensions",
+    "notes":"First install the \"open in\" series of extensions at https://add0n.com/open-in.html.",
+    
     "checkver": "github",
     "autoupdate": {
         "url": "https://github.com/andy-portmen/native-client/releases/download/$version/windows.zip"
