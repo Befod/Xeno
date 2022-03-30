@@ -13,7 +13,8 @@
     ],
     "persist": [
         "FanControl.exe.config",
-        "userConfig.json"
+        "userConfig.json",
+        "Plugins"
     ],
     "pre_install": [
         "function CreateFile ($name) {",
