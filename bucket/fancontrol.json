@@ -11,8 +11,18 @@
             "FanControl"
         ]
     ],
-    "pre_install": "if (-not (Test-Path \"$persist_dir\\FanControl.exe.config\")) { New-Item \"$dir\\FanControl.exe.config\" | Out-Null }",
-    "persist": "FanControl.exe.config",
+    "persist": [
+        "FanControl.exe.config",
+        "userConfig.json"
+    ],
+    "pre_install": [
+        "function CreateFile ($name) {",
+        "    if (!(Test-Path \"$persist_dir\\$name\")) {",
+        "        New-Item -Force -Path \"$persist_dir\" -Name $name -ItemType \"file\"",
+        "    }",
+        "}",
+        "'FanControl.exe.config', 'userConfig.json' | % {CreateFile $_}"
+    ],
     "checkver": "github",
     "autoupdate": {
         "url": "https://raw.githubusercontent.com/Rem0o/FanControl.Releases/master/FanControl.zip"
