@@ -15,7 +15,6 @@
         "FanControl.exe.config",
         "Plugins"
     ],
-    "pre_install": "if (-not (Test-Path \"$persist_dir\\FanControl.exe.config\")) { New-Item \"$dir\\FanControl.exe.config\" | Out-Null }",
     "checkver": "github",
     "autoupdate": {
         "url": "https://raw.githubusercontent.com/Rem0o/FanControl.Releases/master/FanControl.zip"
