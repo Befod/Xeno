@@ -15,6 +15,12 @@
         "FanControl.exe.config",
         "Plugins"
     ],
+    "installer": {
+        "script": "if (Test-Path \"$persist_dir\\userConfig.json\") { Copy-Item \"$persist_dir\\userConfig.json\" \"$dir\" -Force }"
+    },
+    "uninstaller": {
+        "script": "Copy-Item \"$dir\\userConfig.json\" \"$persist_dir\" -Force"
+    },
     "checkver": "github",
     "autoupdate": {
         "url": "https://raw.githubusercontent.com/Rem0o/FanControl.Releases/master/FanControl.zip"

@@ -11,7 +11,17 @@
             "clipboard-online"
         ]
     ],
-    "pre_install": "if (-not (Test-Path \"$persist_dir\\config.json\")) { New-Item \"$dir\\config.json\" | Out-Null }",
+    "pre_install": [
+        "if (!(Test-Path \"$persist_dir\\config.json\")) {",
+        "    Write-Host 'File config.json does not exists. Creating.' -f Yellow",
+        "    Start-Process -FilePath \"$dir\\clipboard-online.exe\"",
+        "    while (!(Test-Path \"$dir\\config.json\")) {",
+        "        Start-Sleep -Milliseconds 500",
+        "    }",
+        "    Start-Sleep 1",
+        "    Stop-Process -Name clipboard-online",
+        "}"
+    ],
     "persist": "config.json",
     "checkver": "github",
     "autoupdate": {
