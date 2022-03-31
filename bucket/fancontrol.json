@@ -5,6 +5,7 @@
     "license": "null",
     "url": "https://raw.githubusercontent.com/Rem0o/FanControl.Releases/master/FanControl.zip",
     "hash": "4f80c4faf6252f05baf75a483bc12050b27c2a4f0e024c2925ec1f0b9a0ffce9",
+    "bin": "FanControl.exe",
     "shortcuts": [
         [
             "FanControl.exe",
