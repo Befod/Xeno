@@ -11,7 +11,17 @@
             "Music Downloader UI"
         ]
     ],
-    "pre_install": "if (-not (Test-Path \"$persist_dir\\Music-Downloader-UI.exe.config\")) { New-Item \"$dir\\Music-Downloader-UI.exe.config\" | Out-Null }",
+    "pre_install": [
+        "if (!(Test-Path \"$persist_dir\\Music-Downloader-UI.exe.config\")) {",
+        "    Write-Host 'File Music-Downloader-UI.exe.config does not exists. Creating.' -f Yellow",
+        "    Start-Process -FilePath \"$dir\\Music-Downloader-UI.exe\"",
+        "    while (!(Test-Path \"$dir\\Music-Downloader-UI.exe.config\")) {",
+        "        Start-Sleep -Milliseconds 500",
+        "    }",
+        "    Start-Sleep 1",
+        "    Stop-Process -Name clipboard-online",
+        "}"
+    ],
     "persist": "Music-Downloader-UI.exe.config",
     "checkver": "github",
     "autoupdate": {
