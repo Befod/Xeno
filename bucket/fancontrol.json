@@ -17,10 +17,16 @@
         "Plugins"
     ],
     "installer": {
-        "script": "if (Test-Path \"$persist_dir\\userConfig.json\") { Copy-Item \"$persist_dir\\userConfig.json\" \"$dir\" -Force }"
+        "script": [
+            "if (Test-Path \"$persist_dir\\userConfig.json\") { Copy-Item \"$persist_dir\\userConfig.json\" \"$dir\" -Force }",
+            "if (Test-Path \"$persist_dir\\CACHE\") { Copy-Item \"$persist_dir\\CACHE\" \"$dir\" -Force }"
+        ]
     },
     "uninstaller": {
-        "script": "Copy-Item \"$dir\\userConfig.json\" \"$persist_dir\" -Force"
+        "script": [
+            "Copy-Item \"$dir\\userConfig.json\" \"$persist_dir\" -Force",
+            "Copy-Item \"$dir\\CACHE\" \"$persist_dir\" -Force"
+        ]
     },
     "checkver": {
         "url": "https://raw.githubusercontent.com/Rem0o/FanControl.Releases/master/version.json",
