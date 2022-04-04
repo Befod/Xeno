@@ -16,3 +16,6 @@ A [Scoop](http://scoop.sh) bucket
 
     `scoop bucket rm xeno`
 
+---
+
+Other buckets : [scoop-directory](https://github.com/rasa/scoop-directory)
