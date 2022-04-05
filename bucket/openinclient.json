@@ -5,7 +5,6 @@
     "license": "MTL-2.0",
     "url": "https://github.com/andy-portmen/native-client/releases/download/0.9.4/windows.zip",
     "hash": "d41bb32d81a708ccd1606feabb2f992679bb1940842bfe700abf4df9928e8581",
-    "depends": "sudo",
     "installer": {
         "script": "sudo \"$dir\\install.bat\""
     },
