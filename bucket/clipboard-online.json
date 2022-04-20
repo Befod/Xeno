@@ -1,10 +1,10 @@
 {
     "homepage": "https://github.com/YanxinTang/clipboard-online",
     "description": "An application to share cilpboard text between Windows and iOS.",
-    "version": "0.2.6",
+    "version": "0.2.7",
     "license": "null",
-    "url": "https://github.com/YanxinTang/clipboard-online/releases/download/v0.2.6/clipboard-online.exe",
-    "hash": "bec26c8f04ae826ce80888c9d2480a06d2ac9b3f0a62933121440531cf9260a2",
+    "url": "https://github.com/YanxinTang/clipboard-online/releases/download/v0.2.7/clipboard-online.exe",
+    "hash": "123252db2add7af730062878737a8e989017a42a70c47f90560103800b9a9a69",
     "shortcuts": [
         [
             "clipboard-online.exe",
