@@ -1,0 +1,22 @@
+{
+    "homepage": "https://github.com/skydevil88/XboxDownload",
+    "description": "Xbox下载助手",
+    "version": "2022-07-22",
+    "license": "Unlicense",
+    "url": "https://github.com/skydevil88/XboxDownload/releases/download/2022-07-22/XboxDownload.zip",
+    "hash": "5be296c620319fa873a5a0197275916122d9a02d2428348c8038379ff3576266",
+    "extract_dir": "Xbox下载助手",
+    "shortcuts": [
+        [
+            "XboxDownload.exe",
+            "Xbox下载助手"
+        ]
+    ],
+    "checkver": {
+        "url": "https://github.com/poerin/Stroke/releases/latest",
+        "regex": "<title>Release ([\\d.]+-[\\d.]+-[\\d.]+)"
+    },
+    "autoupdate": {
+        "url": "https://github.com/skydevil88/XboxDownload/releases/download/$version/XboxDownload.zip"
+    }
+}
