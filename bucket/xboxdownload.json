@@ -1,10 +1,10 @@
 {
     "homepage": "https://github.com/skydevil88/XboxDownload",
     "description": "Xbox下载助手",
-    "version": "2022.09.03",
+    "version": "2022.09.04",
     "license": "Unlicense",
-    "url": "https://github.com/skydevil88/XboxDownload/releases/download/2022.09.03/XboxDownload.zip",
-    "hash": "dd8a424aa43169e91eba0f02d27cae0130f273cf0423b2fde2e570fb9f3849c8",
+    "url": "https://github.com/skydevil88/XboxDownload/releases/download/2022.09.04/XboxDownload.zip",
+    "hash": "3d9740b8021d9068305328fd91c29417e8c3eb56832129c50f594c4021f106c8",
     "extract_dir": "Xbox下载助手",
     "shortcuts": [
         [
