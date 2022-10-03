@@ -7,7 +7,8 @@
     "hash": "52128ce431b76fd7c57a3a74c01602dd5cd580f25e2c9c1dca810f9393912cff",
     "bin": [
         [
-            "media-get-$version-win.exe",
+            "media-get-0.2.8-win.exe",
+            
             "media-get"
         ]
     ],
