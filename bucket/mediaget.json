@@ -1,0 +1,18 @@
+{
+    "homepage": "https://github.com/foamzou/media-get",
+    "description": "在给定的 url 里解析出媒体文件，例如音频视频",
+    "version": "0.2.8",
+    "license": "Apache-2.0",
+    "url": "https://github.com/foamzou/media-get/releases/download/v0.2.8/media-get-0.2.8-win.exe",
+    "hash": "52128ce431b76fd7c57a3a74c01602dd5cd580f25e2c9c1dca810f9393912cff",
+    "bin": [
+        [
+            "media-get-$version-win.exe",
+            "media-get"
+        ]
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/foamzou/media-get/releases/download/v$version/media-get-$version-win.exe"
+    }
+}
