@@ -6,7 +6,7 @@
     "url": "https://github.com/dream7180/foobox-cn/releases/download/6.1.6.11.2/foobox_6.1.6.11.2.zip",
     "hash": "989c87969722ef31274a84e5d6c32c1d632a93b353dff031b176678e91bd06d6",
     "pre_install": [
-        "Expand-7ZipArchive \"$dir\\foobox_$version.exe\" \"$dir\\\" -Removal",
+        "Expand-7ZipArchive \"$dir\\foobox_$version.exe\" \"$dir\" -Removal",
         "Remove-Item \"$dir\\`$PLUGINSDIR\"  -Force -Recurse"
     ],
     "bin": "foobar2000.exe",

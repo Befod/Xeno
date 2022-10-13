@@ -6,8 +6,9 @@
     "url": "https://github.com/TransposonY/GestureSign/releases/download/v8.1/GestureSignPortable-8.1.0.0.zip",
     "hash": "27ae0d9c7b205a80c526984b39dd4d9ba8194068214c90e10675f848711e4c45",
     "pre_install": [
-        "Expand-7ZipArchive \"$dir\\GestureSignPortable.exe\" \"$dir\\\" -Removal",
-        "Remove-Item \"$dir\\GestureSignPortable.exe\"  -Force -Recurse"
+        "Expand-7ZipArchive \"$dir\\GestureSignPortable.exe\" \"$dir\" -Removal",
+        "Move-Item \"$dir\\*\" \"$dir\"",
+        "Remove-Item \"$dir\\GestureSignPortable.exe\",\"$dir\\GestureSignPortable\"  -Force -Recurse"
     ],
     "bin": "GestureSign.exe",
     "shortcuts": [
