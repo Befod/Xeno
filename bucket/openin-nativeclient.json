@@ -6,10 +6,10 @@
     "url": "https://github.com/andy-portmen/native-client/releases/download/0.9.5/windows.zip",
     "hash": "d801dc9236de85ea71c27a6a079a220d5e03c7cf4649dcbca62942cba12d958c",
     "installer": {
-        "script": "\"$dir\\install.bat\""
+        "script": "sudo \"$dir\\install.bat\""
     },
     "uninstaller": {
-        "script": "\"$dir\\uninstall.bat\""
+        "script": "sudo \"$dir\\uninstall.bat\""
     },
     "notes": "First install the \"open in\" series of extensions at https://add0n.com/open-in.html.",
     "checkver": "github",
