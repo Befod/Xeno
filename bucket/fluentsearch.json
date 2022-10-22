@@ -13,8 +13,8 @@
     ],
     "persist": "Blast",
     "checkver": {
-        "url":"https://install.appcenter.ms/users/adirh3-gmail.com/apps/fluent-search/distribution_groups/portable",
-        "regex": "Version ([\\d.]+)"
+        "url": "https://fluentsearch.net/blog",
+        "regex": "Fluent Search version ([\\d.]+)</a>"
     },
     "autoupdate": {
         "url": "https://stfluentsearch.blob.core.windows.net/fluent-search/fluent-search-portable.zip"
