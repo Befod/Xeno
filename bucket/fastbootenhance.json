@@ -1,10 +1,10 @@
 {
     "homepage": "https://github.com/libxzr/FastbootEnhance",
     "description": "A user-friendly fastboot toolbox and payload dumper for windows.",
-    "version": "1.3.0",
+    "version": "1.4.0",
     "license": "MIT",
-    "url": "https://github.com/libxzr/FastbootEnhance/releases/download/v1.3.0/Release.zip",
-    "hash": "337e235304c327105df2971e76c372dc33c182eed1852d330e662a828b67f03b",
+    "url": "https://github.com/libxzr/FastbootEnhance/releases/download/v1.4.0/Release.zip",
+    "hash": "d9ca750894d14ad004cd0b09a50b739ba3244bc98b1e7c540069e3485741c62b",
     "shortcuts": [
         [
             "FastbootEnhance.exe",
