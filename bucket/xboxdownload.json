@@ -14,7 +14,7 @@
     ],
     "checkver": {
         "url": "https://github.com/skydevil88/XboxDownload/releases/latest",
-        "regex": "<title>Release ([\\d.]+)"
+        "regex": "/releases/tag/([^/]+?)\""
     },
     "autoupdate": {
         "url": "https://github.com/skydevil88/XboxDownload/releases/download/$version/XboxDownload.zip"
