@@ -1,10 +1,10 @@
 {
     "homepage": "http://www.filefriend.net/index.html#CPix",
     "description": "A compact and fast photo viewer that supports APNG, WebP, MPO, encryption, format conversion, resizing and more.",
-    "version": "2.8.1",
+    "version": "2.8.2",
     "license": "AS IS",
     "url": "http://www.filefriend.net/CPix/cn/CPix.zip",
-    "hash": "f8ebcc5f128745c44ef36b2234e76304b1b9e5769ee1a949ee4b2cd4c607adc6",
+    "hash": "51b2e08bee839285f0be009cd2fa0364f1287afdc18db916211a19e590a4614b",
     "shortcuts": [
         [
             "CPix.exe",
