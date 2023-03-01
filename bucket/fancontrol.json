@@ -13,18 +13,18 @@
         ]
     ],
     "persist": [
-        "FanControl.exe.config",
-        "Plugins"
+        "plugins",
+        "Configurations"
     ],
-    "installer": {
-        "script": "if (Test-Path \"$persist_dir\\userConfig.json\") { Copy-Item \"$persist_dir\\userConfig.json\" \"$dir\" -Force }"
-    },
-    "uninstaller": {
-        "script": "Copy-Item \"$dir\\userConfig.json\" \"$persist_dir\" -Force"
-    },
+    "pre_install": [
+        "if (!(Test-Path \"$persist_dir\\Configurations\")) {",
+        "   New-Item \"$persist_dir\\Configurations\" -ItemType Directory -Force | Out-Null",
+        "}",
+        "Stop-Process -Name 'FanControl' -Force -ErrorAction 'SilentlyContinue'; Start-Sleep -Seconds 15"
+    ],
     "checkver": {
         "url": "https://raw.githubusercontent.com/Rem0o/FanControl.Releases/master/version.json",
-        "jp": "$.Number"
+        "jsonpath": "$.Number"
     },
     "autoupdate": {
         "url": "https://raw.githubusercontent.com/Rem0o/FanControl.Releases/master/FanControl.zip"
