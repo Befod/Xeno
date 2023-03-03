@@ -5,7 +5,7 @@
     "license": "Unlicense",
     "url": "https://github.com/skydevil88/XboxDownload/releases/download/v2.0.0.20/XboxDownload.zip",
     "hash": "925afa602a13deaf10daa0dc1c56cbe843e22cd26ab3c96d5315b30ab75d8e39",
-    "extract_dir": "XboxDownload",
+    "extract_dir": "Xbox下载助手",
     "shortcuts": [
         [
             "XboxDownload.exe",
