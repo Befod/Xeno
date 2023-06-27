@@ -15,7 +15,10 @@
     ],
     "persist": "Umi-OCR_config.json",
     "pre_install": "if (-not (Test-Path \"$dir\\Umi-OCR_config.json\")) { New-Item \"$dir\\Umi-OCR_config.json\" | Out-Null }",
-    "checkver": "github",
+    "checkver": {
+        "url": "https://github.com/hiroi-sora/Umi-OCR/releases/latest",
+        "regex": "/releases/tag/v([\\d.]+)"
+    },
     "autoupdate": {
         "architecture": {
             "64bit": {
