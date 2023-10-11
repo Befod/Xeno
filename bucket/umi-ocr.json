@@ -14,6 +14,7 @@
         ]
     ],
     "persist": ".settings",
+    "pre_install": "if (-not (Test-Path \"$persist_dir\\.settings\")) { New-Item \"$dir\\UmiOCR-data\\.settings\" | Out-Null }",
     "checkver": {
         "url": "https://github.com/hiroi-sora/Umi-OCR_v2/releases/latest",
         "regex": "/releases/tag/v([\\d.]+)"
