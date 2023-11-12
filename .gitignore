@@ -1,5 +1,6 @@
-*.sublime-workspace
 *~
 ._*
-page.html
-checkver-*.html
+/checkver*
+.idea
+*.iml
+.vscode
