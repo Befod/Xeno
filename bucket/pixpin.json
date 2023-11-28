@@ -5,6 +5,7 @@
     "license": "Freeware",
     "url": "https://download.pixpinapp.com/PixPin_1.0.9.0.zip",
     "hash": "23cebd092b00fe417046020213bf08a05f13a2998d43a4df2b022e8bd0370488",
+    "extract_dir": "PixPin",
     "shortcuts": [
         [
             "PixPin.exe",
