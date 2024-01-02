@@ -8,6 +8,7 @@
     "suggest": {
         "Microsoft .NET Desktop Runtime": "extras/windowsdesktop-runtime-lts"
     },
+    "extract_dir": "clashN",
     "shortcuts": [
         [
             "clashN.exe",
