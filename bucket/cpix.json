@@ -14,7 +14,7 @@
     "pre_install": "if (-not (Test-Path \"$persist_dir\\CPix.ini\")) { New-Item \"$dir\\CPix.ini\" | Out-Null }",
     "persist": "CPix.ini",
     "checkver": {
-        "re": "Version ([\\d.]+)"
+        "regex": "Version ([\\d.]+)"
     },
     "autoupdate": {
         "url": "http://www.filefriend.net/CPix/cn/CPix.zip"
