@@ -4,7 +4,7 @@
     "version": "2.20",
     "license": "GPL-3.0-only",
     "url": "https://github.com/2dust/clashN/releases/download/2.20/clashN.zip",
-    "hash": "",
+    "hash": "d185c7f977132dbcd77c6bf0cc6884a48ff41359e6b73b3adb0d6b16715fb913",
     "suggest": {
         "Microsoft .NET Desktop Runtime": "extras/windowsdesktop-runtime-lts"
     },
