@@ -1,6 +1,6 @@
 {
     "homepage": "https://github.com/Jeric-X/SyncClipboard",
-    "description": "剪贴板同步，支持文字、图片和文件。",
+    "description": "跨平台剪贴板同步方案，支持文字、图片和文件。",
     "version": "2.7.3",
     "license": "MIT",
     "url": "https://github.com/Jeric-X/SyncClipboard/releases/download/v2.7.3/SyncClipboard.zip",
