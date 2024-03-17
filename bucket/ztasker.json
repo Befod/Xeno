@@ -17,7 +17,7 @@
     ],
     "checkver": {
         "url": "http://www.everauto.net/update.html",
-        "regex": "<h1>v([\\d.]+)"
+        "regex": "<h1>V([\\d.]+)"
     },
     "autoupdate": {
         "url": "http://everauto.net:8080/up/zTasker_$version_%E7%BB%BF%E8%89%B2%E7%89%88.zip"
