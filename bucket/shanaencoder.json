@@ -15,6 +15,6 @@
     "persist": "settings",
     "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/1265578519/ShanaEncoder/releases/download/v6.0.1.6/ShanaEncoder.V$version.7z"
+        "url": "https://github.com/1265578519/ShanaEncoder/releases/download/v$version/ShanaEncoder.V$version.7z"
     }
 }
