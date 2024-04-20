@@ -4,7 +4,7 @@
     "version": "2.0.0",
     "license": "GPL-2.0-only",
     "url": "https://github.com/diana7127/mpv.net-DW/releases/download/v1.8.0/mpv.net-DW_v1.8.0_Setup.exe#/dl.7z",
-    "hash": "",
+    "hash": "c51efac73e6201809575f4f6e8d1d511469d777964d2e48cdc548538318564aa",
     "extract_dir": "mpv.net-DW",
     "bin": [
         [
