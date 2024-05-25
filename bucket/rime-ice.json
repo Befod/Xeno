@@ -5,7 +5,7 @@
     "license": "GPL-3.0-only",
     "url": "https://github.com/iDvel/rime-ice/releases/download/2024.05.21/full.zip",
     "hash": "a4eba3b740185c236c3661fc87769dca8b81910d6b2fb5a4ff788a3c0f674ebd",
-    "notes": "需要先安装小狼毫输入法",
+    "notes": "使用雾凇拼音前需要先安装小狼毫输入法，安装雾凇拼音后需要在小狼毫输入法中配置雾凇拼音，并重新部署",
     "post_install": [
         "$rimeuserdir = Get-ItemProperty -Path \"HKCU:\\Software\\Rime\\Weasel\" | Select-Object -ExpandProperty RimeUserDir",
         "Copy-Item \"$dir\\*\" \"$rimeuserdir\" -Exclude \"install.json\",\"manifest.json\" -Recurse -force"
