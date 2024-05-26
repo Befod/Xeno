@@ -21,10 +21,6 @@
     ],
     "checkver": "github",
     "autoupdate": {
-        "architecture": {
-            "64bit": {
-                "url": "https://github.com/2dust/clashN/releases/download/$version/clashN.zip"
-            }
-        }
+        "url": "https://github.com/2dust/clashN/releases/download/$version/clashN.zip"
     }
 }
