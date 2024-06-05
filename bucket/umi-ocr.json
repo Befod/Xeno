@@ -1,11 +1,11 @@
 {
     "homepage": "https://github.com/hiroi-sora/Umi-OCR",
     "description": "Offline OCR image-to-text tool.",
-    "version": "2.1.1",
+    "version": "2.1.2",
     "license": "MIT",
     "url": "https://github.com/hiroi-sora/Umi-OCR/releases/download/v2.1.2/Umi-OCR_Paddle_v2.1.2.7z.exe#/dl.7z",
-    "hash": "53e144b07c3ddfc1038e16926912de75c8212840c84cd56713f9e93ecc22e753",
-    "extract_dir": "Umi-OCR_Paddle_v2.1.1",
+    "hash": "c0bcb3c0815ed2ecade48e2dc762a293213235a5c9fa45cd2eea3497e0ed08d0",
+    "extract_dir": "Umi-OCR_Paddle_v2.1.2",
     "bin": "Umi-OCR.exe",
     "shortcuts": [
         [
