@@ -4,7 +4,7 @@
     "version": "2.1.2",
     "license": "MIT",
     "url": "https://github.com/hiroi-sora/Umi-OCR/releases/download/v2.1.2/Umi-OCR_Paddle_v2.1.2.7z.exe#/dl.7z",
-    "hash": "c0bcb3c0815ed2ecade48e2dc762a293213235a5c9fa45cd2eea3497e0ed08d0",
+    "hash": "6dce23ea7f95a2ffb9415f8f5bb588df75ddf90abdcbbb972cc38fe2dbbfc70d",
     "extract_dir": "Umi-OCR_Paddle_v2.1.2",
     "bin": "Umi-OCR.exe",
     "shortcuts": [
