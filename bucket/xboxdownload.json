@@ -1,10 +1,10 @@
 {
     "homepage": "https://github.com/skydevil88/XboxDownload",
     "description": "Xbox下载助手",
-    "version": "2.0.2.19",
+    "version": "2.0.2.20",
     "license": "Unlicense",
-    "url": "https://github.com/skydevil88/XboxDownload/releases/download/v2.0.2.19/XboxDownload.zip",
-    "hash": "d2488482d59ebfd337dbebf88f09a0b31b1459ac926f5d4c39c9e83ff50434a4",
+    "url": "https://github.com/skydevil88/XboxDownload/releases/download/v2.0.2.20/XboxDownload.zip",
+    "hash": "66e55acaf395abad9d66d4d7cadc21ebf5069f8ca81b206908e939eb0b85c876",
     "extract_dir": "Xbox下载助手",
     "shortcuts": [
         [
