@@ -1,16 +1,16 @@
 {
-    "version": "1.25.2",
+    "version": "1.25.3",
     "description": "使用图形化的 Scrcpy 显示和控制您的 Android 设备",
     "homepage": "https://github.com/viarotel-org/escrcpy",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/viarotel-org/escrcpy/releases/download/v1.25.2/Escrcpy-1.25.2-win-x64.zip",
-            "hash": "8d446cfc707d3a3091ecfb5d171cbae79a1cec4e1bb6534c0b04512cb5800a96"
+            "url": "https://github.com/viarotel-org/escrcpy/releases/download/v1.25.3/Escrcpy-1.25.3-win-x64.zip",
+            "hash": "dce8116335e74b21a2b1a0eaa3eff6dbbbac5f24da15f190945da2cde2f1e8f6"
         },
         "arm64": {
-            "url": "https://github.com/viarotel-org/escrcpy/releases/download/v1.25.2/Escrcpy-1.25.2-win-arm64.zip",
-            "hash": "ee77663be73ab76d333c310f6f74d797d585073e74492ed5e104d2ad5bd9acd7"
+            "url": "https://github.com/viarotel-org/escrcpy/releases/download/v1.25.3/Escrcpy-1.25.3-win-arm64.zip",
+            "hash": "32f8dda2fb0ccad755773860f4ea4629ccc22263aebb8bc3e3375b99e6092d02"
         }
     },
     "shortcuts": [
