@@ -1,10 +1,10 @@
 {
     "homepage": "https://github.com/Rem0o/FanControl.Releases",
     "description": "A focused, highly customizable fan controlling software for Windows.",
-    "version": "206",
+    "version": "207",
     "license": "null",
     "url": "https://raw.githubusercontent.com/Rem0o/FanControl.Releases/master/FanControl.zip",
-    "hash": "9910bd7933ab50180634e6306e66ae9f99bbb0392a9d9ad2957ed4d04fedcd50",
+    "hash": "c98cf062910124b1ab3633a59ce95511626411ee4f184fa72e849967b578e46e",
     "bin": "FanControl.exe",
     "shortcuts": [
         [
