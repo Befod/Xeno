@@ -10,8 +10,11 @@
         "$rimeuserdir = Get-ItemProperty -Path \"HKCU:\\Software\\Rime\\Weasel\" | Select-Object -ExpandProperty RimeUserDir",
         "Copy-Item \"$dir\\*\" \"$rimeuserdir\" -Exclude \"install.json\",\"manifest.json\" -Recurse -force"
     ],
-    "checkver": "github",
+    "checkver": {
+        "url": "https://github.com/iDvel/rime-ice/releases",
+        "regex": "/releases/tag/([\\d.]+)"
+    },
     "autoupdate": {
-        "url": "https://github.com/iDvel/rime-ice/releases/download$version/full.zip"
+        "url": "https://github.com/iDvel/rime-ice/releases/download/$version/full.zip"
     }
 }
