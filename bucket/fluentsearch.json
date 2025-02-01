@@ -1,10 +1,10 @@
 {
     "homepage": "https://www.fluentsearch.net",
     "description": "An application to search for running apps, browser tabs, in-app content, files and more.",
-    "version": "1.0.0.82",
+    "version": "1.0.0.85",
     "license": "Freeware",
-    "url": "https://github.com/adirh3/Fluent-Search/releases/download/1.0.0.82/fluent-search-portable-x64.zip",
-    "hash": "97686d98fe00136aa57ba3ad46d54ff0f750d16ae0abe9e3354baf98d72cfde4",
+    "url": "https://github.com/adirh3/Fluent-Search/releases/download/1.0.0.85/fluent-search-portable-x64.zip",
+    "hash": "397d4d5a7987009af47803ed709adc79e7435464f43ec1ff8b7b84d5bed90e5d",
     "shortcuts": [
         [
             "FluentSearch.exe",
