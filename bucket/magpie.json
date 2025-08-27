@@ -1,10 +1,10 @@
 {
     "homepage": "https://github.com/Blinue/Magpie",
     "description": "一个轻量级的窗口缩放工具，内置了多种高效的缩放算法和滤镜。它主要用于提升游戏画质和让不支持全屏化的游戏也能全屏显示等。",
-    "version": "0.12.0",
+    "version": "0.12.1",
     "license": "GPL-3.0-only",
-    "url": "https://github.com/Blinue/Magpie/releases/download/v0.12.0/Magpie-v0.12.0-x64.zip",
-    "hash": "13335446270b0c01e109eb08732c6aebb28d09a40ad9d8dba58d840d89cfa7fe",
+    "url": "https://github.com/Blinue/Magpie/releases/download/v0.12.1/Magpie-v0.12.1-x64.zip",
+    "hash": "8bc8bc233438f546b7996b00b21d7376f4f7d3d8a4940e6a8800babd2225b2de",
     "shortcuts": [
         [
             "Magpie.exe",
