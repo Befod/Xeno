@@ -1,10 +1,10 @@
 {
     "homepage": "https://github.com/skydevil88/XboxDownload",
     "description": "Xbox下载助手",
-    "version": "3.0.0.38",
+    "version": "3.0.0.39",
     "license": "Unlicense",
-    "url": "https://github.com/skydevil88/XboxDownload/releases/download/v3.0.0.38/XboxDownload-windows-x64.zip",
-    "hash": "7e160ee737772265cd229874104a903e0e7116f00ce5f70ba8f609404399f615",
+    "url": "https://github.com/skydevil88/XboxDownload/releases/download/v3.0.0.39/XboxDownload-windows-x64.zip",
+    "hash": "99a218f5cf1fa31e02535dcda2dfd78c6583f9ebd2810469f558d6479acdd39e",
     "extract_dir": "XboxDownload-windows-x64",
     "shortcuts": [
         [
