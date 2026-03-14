@@ -1,0 +1,21 @@
+{
+    "homepage": "https://github.com/aa2013/ClipShare",
+    "description": "跨平台剪贴板历史记录与同步工具",
+    "version": "1.4.2",
+    "license": "GPL-3.0-only",
+    "url": "hhttps://github.com/aa2013/ClipShare/releases/download/v1.4.2/clipshare-1.4.2+24-windows-setup.zip",
+    "hash": "8c5599326ac2ccb9a02323d7a4cc457ce2a295bb42a7fad6339f23f14f0161c7",
+    "shortcuts": [
+        [
+            "clipshare.exe",
+            "ClipShare"
+        ]
+    ],
+    "checkver": {
+        "github": "https://github.com/aa2013/ClipShare",
+        "re": "v(?<version>[\\d.]+)/clipshare-(?<verbuild>[\\d.]+\\+(?<build>\\d+))-windows-setup\\.zip"
+    },
+    "autoupdate": {
+        "url": "https://github.com/aa2013/ClipShare/releases/download/v$version/clipshare-$matchVerbuild-windows-setup.zip"
+    }
+}
