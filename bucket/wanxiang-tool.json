@@ -13,7 +13,7 @@
     ],
     "checkver": {
         "github": "https://github.com/amzxyz/RIME-LMDG",
-        "regex": "v?([\\d.]+(?:-?[a-zA-Z]+[\\d.]*)?)"
+        "regex": "- v?([\\d.]+(?:-?[a-zA-Z]+[\\d.]*)?)"
     },
     "autoupdate": {
         "url": "https://github.com/amzxyz/RIME-LMDG/releases/download/tool/wanxiang-tools.exe"
