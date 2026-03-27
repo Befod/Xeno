@@ -1,13 +1,16 @@
 {
     "homepage": "https://www.rathlev-home.de/tools/prog-e.html#unpack",
     "description": "Inno Setup Unpacker (Unicode)",
-    "version": "2.65.2",
+    "version": "2.67.5",
     "license": "GPL-3.0-only",
-    "url": "https://www.rathlev-home.de/tools/download/innounp-1.zip",
-    "hash": "ac1717f0742745bd69358449cc79282f2a948db807e3eeded0fd3663ad91d1ac",
+    "url": "https://raw.githubusercontent.com/jrathlev/InnoUnpacker-Windows-GUI/refs/heads/master/innounp-2/bin/innounp-2.zip",
+    "hash": "7188bacdff74a1b063b784e4c24fd509e353701d33802c813aa0eb7482b73af1",
     "bin": "innounp.exe",
-    "checkver": "executable - version ([\\d.]+)",
+    "checkver": {
+        "url": "https://raw.githubusercontent.com/jrathlev/InnoUnpacker-Windows-GUI/refs/heads/master/innounp-2/docs/innounp.htm",
+        "regex": "(?s)What's new/History.*?<b>(\\d+(?:\\.\\d+){2})</b>"
+    },
     "autoupdate": {
-        "url": "https://www.rathlev-home.de/tools/download/innounp-1.zip"
+        "url": "https://raw.githubusercontent.com/jrathlev/InnoUnpacker-Windows-GUI/refs/heads/master/innounp-2/bin/innounp-2.zip"
     }
 }
