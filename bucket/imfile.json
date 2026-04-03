@@ -11,7 +11,10 @@
             "imFile"
         ]
     ],
-    "checkver": "github",
+    "checkver": {
+        "url": "https://github.com/imfile-io/imfile-desktop/releases/latest",
+        "regex": "/releases/tag/imFile-([\\d.]+)"
+    },
     "autoupdate": {
         "architecture": {
             "64bit": {
