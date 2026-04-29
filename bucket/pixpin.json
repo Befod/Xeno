@@ -6,6 +6,7 @@
     "url": "https://download.pixpin.cn/PixPin_cn_zh-cn_3.1.4.0.zip",
     "hash": "1974429a678d213115f7aa2b95b9478caeb4370edf5d73d12db01735f6616065",
     "extract_dir": "PixPin",
+    "bin": "PixPin.exe",
     "shortcuts": [
         [
             "PixPin.exe",
