@@ -1,10 +1,10 @@
 {
     "homepage": "https://github.com/poerin/Stroke",
     "description": "A mouse gesture program.",
-    "version": "2026-04-26",
+    "version": "2026-05-01",
     "license": "GPL_3.0",
-    "url": "https://github.com/poerin/Stroke/releases/download/2026-04-26/Stroke.zip",
-    "hash": "63a50f63358434da85078a98e86073fbe57a42f58d4796d25d040e6cce3fd8a6",
+    "url": "https://github.com/poerin/Stroke/releases/download/2026-05-01/Stroke.zip",
+    "hash": "4ba7fd5b8d2670531c8ea2821838adf89297715ee4c3ef777763de5ce3a0b6c2",
     "notes": "\"extract_dir\": \"Stroke\"",
     "shortcuts": [
         [
