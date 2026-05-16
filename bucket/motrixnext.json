@@ -1,10 +1,10 @@
 {
     "homepage": "https://github.com/AnInsomniacy/motrix-next",
     "description": "Tauri版本的Motrix下载器",
-    "version": "3.8.9",
+    "version": "3.8.10",
     "license": "MIT",
-    "url": "https://github.com/AnInsomniacy/motrix-next/releases/download/v3.8.9/MotrixNext_3.8.9_x64-setup.exe#/dl.7z",
-    "hash": "92b0260e1b0ddae401a2c5054dd9bb54afc7f518f5b37a053fbbd17331dd73a9",
+    "url": "https://github.com/AnInsomniacy/motrix-next/releases/download/v3.8.10/MotrixNext_3.8.10_x64-setup.exe#/dl.7z",
+    "hash": "c81ae0962975872b79eea46b1b2fa2ab3a8e68586c9e10efb11b5091a45cda76",
     "shortcuts": [
         [
             "motrix-next.exe",
