@@ -13,10 +13,6 @@
     ],
     "checkver": "github",
     "autoupdate": {
-        "architecture": {
-            "64bit": {
-                "url": "https://github.com/imfile-io/imfile-desktop/releases/download/v$version/imFile-$version-x64.zip"
-            }
-        }
+        "url": "https://github.com/imfile-io/imfile-desktop/releases/download/v$version/imFile-$version-x64.zip"
     }
 }
