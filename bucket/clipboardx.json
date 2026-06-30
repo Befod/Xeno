@@ -1,10 +1,10 @@
 {
     "homepage": "https://github.com/chaojimct/clipboardx",
     "description": "轻量级 Windows 剪贴板历史",
-    "version": "1.9.1",
+    "version": "1.9.2",
     "license": "MIT",
-    "url": "https://github.com/chaojimct/clipboardx/releases/download/v1.9.1/ClipboardX-clipboard-1.9.1-win-x64-self-contained.zip",
-    "hash": "d9d2401f43798336eb47a30e57ce641ccc5386a8b377e3edf0cbcab6036bd1ad",
+    "url": "https://github.com/chaojimct/clipboardx/releases/download/v1.9.2/ClipboardX-clipboard-1.9.2-win-x64-self-contained.zip",
+    "hash": "7091ff91b6bf131107c35c2995d9ddff0e946f64dc8d799bb2ed74c56b2d7006",
     "shortcuts": [
         [
             "ClipboardX-clipboard",
