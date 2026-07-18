@@ -1,10 +1,10 @@
 {
     "homepage": "https://github.com/Jeric-X/SyncClipboard",
     "description": "跨平台剪贴板同步方案，支持文字、图片和文件。",
-    "version": "3.1.8",
+    "version": "3.1.9",
     "license": "MIT",
-    "url": "https://github.com/Jeric-X/SyncClipboard/releases/download/v3.1.8/SyncClipboard_win_x64_portable.zip",
-    "hash": "f41900f05b01b8301f3545cdf6a12abc07dce5bb1b5c4ee4ab29cf61e42cdeef",
+    "url": "https://github.com/Jeric-X/SyncClipboard/releases/download/v3.1.9/SyncClipboard_win_x64_portable.zip",
+    "hash": "07d4151e193d3ca656cd2541a8ea55e9958ae76f918ca57bc9cac89c65890baa",
     "shortcuts": [
         [
             "SyncClipboard.exe",
