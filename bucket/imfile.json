@@ -1,9 +1,9 @@
 {
     "homepage": "https://github.com/imfile-io/imfile-desktop",
     "description": "A full-featured download manager.",
-    "version": "2.3.3",
+    "version": "2.3.4",
     "license": "MIT",
-    "url": "https://github.com/imfile-io/imfile-desktop/releases/download/v2.3.3/imFile-2.3.3-x64.zip",
+    "url": "https://github.com/imfile-io/imfile-desktop/releases/download/v2.3.4/imFile-2.3.4-x64.zip",
     "hash": "",
     "shortcuts": [
         [
