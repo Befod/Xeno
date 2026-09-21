@@ -25,7 +25,7 @@
     ],
     "checkver": {
         "url": "https://github.com/dengxibo/sumatrapdf-plus/releases/latest",
-        "regex": "/releases/tag/v([\\d.]+)"
+        "regex": "/releases/tag/([\\d.]+)"
     },
     "autoupdate": {
         "url": "https://github.com/dengxibo/sumatrapdf-plus/releases/download/v$version/Sumatra.PDF.Plus.MainProgram.zip"
