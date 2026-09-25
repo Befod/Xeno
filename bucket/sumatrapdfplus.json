@@ -23,10 +23,7 @@
         "SumatraPDF-settings.txt",
         "sumatrapdfcache"
     ],
-    "checkver": {
-        "url": "https://github.com/dengxibo/sumatrapdf-plus/releases/latest",
-        "regex": "/releases/tag/([\\d.]+)"
-    },
+    "checkver": "github",
     "autoupdate": {
         "url": "https://github.com/dengxibo/sumatrapdf-plus/releases/download/v$version/Sumatra.PDF.Plus.MainProgram.zip"
     }
