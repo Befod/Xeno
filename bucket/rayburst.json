@@ -12,7 +12,6 @@
         ]
     ],
     "post_install": "Remove-Item \"$dir\\$*\" -Force -Recurse",
-    "persist": "binaries\\aria2.conf",
     "checkver": "github",
     "autoupdate": {
         "url": "https://github.com/AnInsomniacy/rayburst/releases/download/v$version/Rayburst_$version_arm64-setup.exe#/dl.7z"
