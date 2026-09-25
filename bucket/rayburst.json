@@ -1,0 +1,20 @@
+{
+    "homepage": "https://github.com/AnInsomniacy/rayburst",
+    "description": "Redefining the open-source download manager",
+    "version": "4.0.0",
+    "license": "MIT",
+    "url": "https://github.com/AnInsomniacy/rayburst/releases/download/v4.0.0/Rayburst_4.0.0_arm64-setup.exe#/dl.7z",
+    "hash": "6025330aa6e36b65af9c71930a3a341feeeff621e9364bc6c69046627f787352",
+    "shortcuts": [
+        [
+            "rayburst.exe",
+            "Rayburst"
+        ]
+    ],
+    "post_install": "Remove-Item \"$dir\\$*\" -Force -Recurse",
+    "persist": "binaries\\aria2.conf",
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/AnInsomniacy/rayburst/releases/download/v$version/Rayburst_$version_arm64-setup.exe#/dl.7z"
+    }
+}
