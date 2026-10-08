@@ -17,18 +17,14 @@
         "plugins"
     ],
     "checkver": {
-        "script": [
-            "$response = Invoke-RestMethod -Uri 'https://rj.lovestu.com/download/gh_view'",
-            "$version = $response.data.version",
-            "$file = $response.data.files | Where-Object { $_.name -like '*.zip' }",
-            "return \"$version=====$($file.url)\""
-        ],
-        "regex": "(.*)=====(?<url>.*)"
+        "url": "https://rj.lovestu.com/download/gh_view",
+        "regex": "\"version\":\"([\\d.]+)\",\"version_code\":(\\d+)[\\s\\S]*?\"id\":(\\d+),\"name\":\"[^\"]*\\.7z\"",
+        "replace": "$1.$2"
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "$matchUrl"
+                "url": "https://rj.lovestu.com/api/v1/release-files/$match3/download#/dl.7z"
             }
         }
     }
