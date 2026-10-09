@@ -1,10 +1,10 @@
 {
     "homepage": "https://pic.ghxi.com",
     "description": "极速看图，不止于快。",
-    "version": "3.4.8",
+    "version": "3.4.8.116",
     "license": "Freeware",
     "url": "https://rj.lovestu.com/api/v1/release-files/185/download?filename=1#/dl.zip",
-    "hash": "7815eb2b2b49aa632284e91b2f35064975458a5e5c35e5486ef673107a632957",
+    "hash": "",
     "extract_dir": "GuoheViewPortable",
     "shortcuts": [
         [
