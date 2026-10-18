@@ -1,16 +1,16 @@
 {
     "homepage": "https://github.com/zufuliu/notepad4",
     "description": "A modified version (fork) of Notepad2-mod.",
-    "version": "26.08r6282",
+    "version": "26.10r6392",
     "license": "BSD 3-Clause",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/zufuliu/notepad4/releases/download/v26.08r6282/Notepad4_zh-Hans_x64_v26.08r6282.zip",
-            "hash": "e5a0086f645469fe9b4bbc29dbe48d92bda8c1d016563098b0c573fd053d1aaa"
+            "url": "https://github.com/zufuliu/notepad4/releases/download/v26.10r6392/Notepad4_zh-Hans_x64_v26.10r6392.zip",
+            "hash": "e36b1fc31f7beb6b1f6eee1c2f9b4f214c3a48c899b64d6d7813569d43e3358e"
         },
         "32bit": {
-            "url": "https://github.com/zufuliu/notepad4/releases/download/v26.08r6282/Notepad4_zh-Hans_Win32_v26.08r6282.zip",
-            "hash": "f331e2b8812546c0e15d8e88d3cd1cdfcda04d87e4588b4e0adb722878615133"
+            "url": "https://github.com/zufuliu/notepad4/releases/download/v26.10r6392/Notepad4_zh-Hans_Win32_v26.10r6392.zip",
+            "hash": "70032474642db1b97d9fde1ddcbc896fab224db82e52a39425cf4646fbec1a6c"
         }
     },
     "bin": "Notepad4.exe",
