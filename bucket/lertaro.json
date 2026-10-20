@@ -1,10 +1,10 @@
 {
     "homepage": "https://github.com/lertaro/lertaro",
     "description": "一款基于 .NET 10.0 (WPF) 开发的超轻量、极速且高度可扩展的 Windows 桌面全局搜索与效率启动工具",
-    "version": "5.9.8",
+    "version": "5.9.9",
     "license": "MIT",
-    "url": "https://github.com/Lertaro/Lertaro/releases/download/v5.9.8/Lertaro-Portable.zip",
-    "hash": "a508e0f837454f09a23297575348875f00c2c26055ff28068588b03ccb61716d",
+    "url": "https://github.com/Lertaro/Lertaro/releases/download/v5.9.9/Lertaro-Portable.zip",
+    "hash": "1f7fb4147b15514f568ce84dd9bbfd8b1d307e0e4a2b2218c727de05ede31fcc",
     "extract_dir": "Lertaro",
     "shortcuts": [
         [
