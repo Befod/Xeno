@@ -1,10 +1,10 @@
 {
     "homepage": "https://github.com/chaojimct/clipx",
     "description": "轻量级 Windows 剪贴板历史工具",
-    "version": "0.10.12",
+    "version": "0.10.13",
     "license": "MIT",
-    "url": "https://github.com/chaojimct/clipx/releases/download/v0.10.12/clipx-0.10.12-setup.exe",
-    "hash": "114adb0cf0c2875729d71d330f0a257726b0d152c17edfe87b892807aa5c507d",
+    "url": "https://github.com/chaojimct/clipx/releases/download/v0.10.13/clipx-0.10.13-setup.exe",
+    "hash": "c48670a349514ebc119b057eabafefbc65422c6ffeef2059e1e54c232ace1a2e",
     "innosetup": true,
     "shortcuts": [
         [
