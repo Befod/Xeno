@@ -1,10 +1,10 @@
 {
     "homepage": "https://github.com/AnInsomniacy/rayburst",
     "description": "Redefining the open-source download manager",
-    "version": "4.1.0",
+    "version": "4.1.1",
     "license": "MIT",
-    "url": "https://github.com/AnInsomniacy/rayburst/releases/download/v4.1.0/Rayburst_4.1.0_x64-setup.exe#/dl.7z",
-    "hash": "93d3fc70477ab70e627289ea4fab8c7901f4383e0f56eca81cc59c9ff9ce594a",
+    "url": "https://github.com/AnInsomniacy/rayburst/releases/download/v4.1.1/Rayburst_4.1.1_x64-setup.exe#/dl.7z",
+    "hash": "1c82b728f95e310699d0a44f822b089d3f50b1593fe4417742efbe56914a8c45",
     "shortcuts": [
         [
             "rayburst.exe",
