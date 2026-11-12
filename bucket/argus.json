@@ -1,10 +1,10 @@
 {
     "homepage": "https://github.com/Ray-lea/Argus",
     "description": "快速、现代、信息丰富的 Windows 任务管理器",
-    "version": "0.4.0",
+    "version": "0.5.0",
     "license": "AGPL-3.0-only",
-    "url": "https://github.com/Ray-lea/Argus/releases/download/v0.4.0/Argus_0.4.0_x64.exe",
-    "hash": "eef111d449b3f425283b316bc7af8346475e7de925f2991e75fdf4c5131b835c",
+    "url": "https://github.com/Ray-lea/Argus/releases/download/v0.5.0/Argus_0.5.0_x64.exe",
+    "hash": "a23fd2a4d0afa18e4f2a6fc52bea559e4a326466ad95f2775873a13284359bde",
     "pre_install": [
         "$exe = Get-ChildItem \"$dir\\Argus_*_x64.exe\" | Select-Object -First 1",
         "if ($exe) { Rename-Item -LiteralPath $exe.FullName -NewName 'Argus.exe' }"
