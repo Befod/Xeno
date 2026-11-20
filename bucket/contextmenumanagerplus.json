@@ -1,10 +1,10 @@
 {
     "homepage": "https://github.com/PLFJY/ContextMenuMgr",
     "description": "Context Menu Manager Plus 是一个强大的实用程序，它可帮助您管理 Windows 上的右键菜单，并避免第三方向你的右键菜单里塞屎",
-    "version": "1.8.0",
+    "version": "1.8.1",
     "license": "GPL-3.0-only",
-    "url": "https://github.com/PLFJY/ContextMenuMgr/releases/download/v1.8.0/ContextMenuMgrPlus-1.8.0-x64-self-contained-portable.zip",
-    "hash": "f3e15d1e8f63019b18b145a5b62083ebc01c2ff1e4dbfdf7e9e5a68dad0fc739",
+    "url": "https://github.com/PLFJY/ContextMenuMgr/releases/download/v1.8.1/ContextMenuMgrPlus-1.8.1-x64-self-contained-portable.zip",
+    "hash": "36808b5a482a4ab9b04d9747375cee25b5a0e4b88173a8c45d942cd4ceac6176",
     "bin": "ContextMenuManagerPlus.exe",
     "shortcuts": [
         [
