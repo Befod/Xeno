@@ -1,10 +1,10 @@
 {
     "homepage": "https://github.com/HK560/ControllerMeta",
     "description": "高精度游戏手柄分析工具",
-    "version": "1.1.0",
+    "version": "1.2.0",
     "license": "Freeware",
-    "url": "https://github.com/HK560/ControllerMeta/releases/download/1.1.0/ControllerMeta.exe",
-    "hash": "bd71058c678b1d68f59dfe4c7598f0ad02bcb428aa3b6a4e64d98839ea08962c",
+    "url": "https://github.com/HK560/ControllerMeta/releases/download/1.2.0/ControllerMeta.exe",
+    "hash": "e647a1d3d1bd3ab0d30df1520b210a51a82af97bfc4803e1181522c5557c8480",
     "shortcuts": [
         [
             "ControllerMeta.exe",
