@@ -16,14 +16,10 @@
         "github": "https://github.com/yuan278501381/Tools3000"
     },
     "autoupdate": {
-        "architecture": {
-            "64bit": {
-                "url": "https://github.com/yuan278501381/Tools3000/releases/download/v$version/Tools3000-v$version-win-x64-portable.zip",
-                "hash": {
-                    "url": "https://github.com/yuan278501381/Tools3000/releases/download/v$version/SHA256SUMS.txt",
-                    "mode": "extract"
-                }
-            }
+        "url": "https://github.com/yuan278501381/Tools3000/releases/download/v$version/Tools3000-v$version-win-x64-portable.zip",
+        "hash": {
+            "url": "https://github.com/yuan278501381/Tools3000/releases/download/v$version/SHA256SUMS.txt",
+            "mode": "extract"
         }
     }
 }
