@@ -1,10 +1,10 @@
 {
     "homepage": "https://github.com/Koimsurai/Arke",
     "description": "A file explorer for Windows that never freezes",
-    "version": "0.8.0",
+    "version": "0.8.1",
     "license": "AGPL-3.0-only",
-    "url": "https://github.com/Koimsurai/Arke/releases/download/v0.8.0/arke-0.8.0.exe#/arke.exe",
-    "hash": "db3b2889c03c1ac51e6b3f785ded679f3c2d9a969344a5131ba871ba8bb75166",
+    "url": "https://github.com/Koimsurai/Arke/releases/download/v0.8.1/arke-0.8.1.exe#/arke.exe",
+    "hash": "52a4a40da141d289ee6b5a2b4d21ecff2c63a8fda944592a8ca0063f70baca14",
     "bin": "arke.exe",
     "shortcuts": [
         [
