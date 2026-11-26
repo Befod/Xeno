@@ -13,7 +13,7 @@
         "}"
     ],
     "uninstaller": {
-        "script": "Remove-Item \"$(appdir everything $global)\\current\\bin\" -Recurse -Force"
+        "script": "cmd /c rmdir \"$(appdir everything $global)\\current\\bin\""
     },
     "persist": "bin\\IbEverythingExt.yaml",
     "checkver": "github",
